@@ -1,4 +1,4 @@
-# Welcome to Math Utinity Repository
+# Welcome to Math Utility Repository
 ### You will find this repo the following stuff (Java source code);
 
 * A demonstration of using static to create a custom Math library
