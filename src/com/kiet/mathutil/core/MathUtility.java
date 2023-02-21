@@ -22,8 +22,8 @@ public class MathUtility {
         if (n < 0 || n > 20) throw new IllegalArgumentException("Invalid n must be between 0..20!");
         if (n==0 || n==1) return 1;
         long product = 1;
-        for (int i = 2; i < n; i++)  //make code wrong
-            product *= i;
+        for (int i = 2; i <= n; i++)  //make code wrong
+            product *= i;             //if upload this, recieves green
         return product;
     }
     //dân dev phải có trách nhiệm với những hàm/method mình viết ra
